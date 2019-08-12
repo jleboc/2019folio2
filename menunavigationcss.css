@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07-août-2019, 16:07:20
+    Author     : µ
+*/
+body{
+    background: rgba(199,146,40,1);
+    background: -moz-linear-gradient(left, rgba(199,146,40,1) 0%, rgba(199,146,40,1) 14%, rgba(252,234,187,1) 41%, rgba(251,223,147,1) 66%, rgba(191,121,34,1) 86%, rgba(191,121,34,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(199,146,40,1)), color-stop(14%, rgba(199,146,40,1)), color-stop(41%, rgba(252,234,187,1)), color-stop(66%, rgba(251,223,147,1)), color-stop(86%, rgba(191,121,34,1)), color-stop(100%, rgba(191,121,34,1)));
+    background: -webkit-linear-gradient(left, rgba(199,146,40,1) 0%, rgba(199,146,40,1) 14%, rgba(252,234,187,1) 41%, rgba(251,223,147,1) 66%, rgba(191,121,34,1) 86%, rgba(191,121,34,1) 100%);
+    background: -o-linear-gradient(left, rgba(199,146,40,1) 0%, rgba(199,146,40,1) 14%, rgba(252,234,187,1) 41%, rgba(251,223,147,1) 66%, rgba(191,121,34,1) 86%, rgba(191,121,34,1) 100%);
+    background: -ms-linear-gradient(left, rgba(199,146,40,1) 0%, rgba(199,146,40,1) 14%, rgba(252,234,187,1) 41%, rgba(251,223,147,1) 66%, rgba(191,121,34,1) 86%, rgba(191,121,34,1) 100%);
+    background: linear-gradient(to right, rgba(199,146,40,1) 0%, rgba(199,146,40,1) 14%, rgba(252,234,187,1) 41%, rgba(251,223,147,1) 66%, rgba(191,121,34,1) 86%, rgba(191,121,34,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c79228', endColorstr='#bf7922', GradientType=1 );
+    
+}
+header{
+
+}
+h1{
+    text-align: center;
+}
+nav{
+    width: 99%;
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;     
+}
+
+nav ul li{
+    display: inline;
+    padding: 15px 0px;
+
+}
+nav ul li a{
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    background-color: #CCCCFF;
+}
+a:visited {
+    color: greenyellow;
+}
+
+a:hover {
+    color: red
+}
+a:active {
+    color: purple
+}
+section{
+    background-image: url("image/autumn_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 11em 0;
+}
+article{
+    min-height: 500px;
+}

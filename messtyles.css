@@ -1,0 +1,67 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06-août-2019, 16:14:39
+    Author     : µ
+*/
+
+p.centre{
+    text-align: center
+}
+p{
+    color:red;
+    
+}
+h1{
+    color:red;
+    text-align: center
+        
+}
+h2{
+    color:green;
+    padding: 0px 0px 0px 300px;
+    
+background: rgba(241,231,103,1);
+background: -moz-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(255,254,252,1) 50%, rgba(246,252,70,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(241,231,103,1)), color-stop(50%, rgba(255,254,252,1)), color-stop(100%, rgba(246,252,70,1)));
+background: -webkit-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(255,254,252,1) 50%, rgba(246,252,70,1) 100%);
+background: -o-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(255,254,252,1) 50%, rgba(246,252,70,1) 100%);
+background: -ms-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(255,254,252,1) 50%, rgba(246,252,70,1) 100%);
+background: linear-gradient(to bottom, rgba(241,231,103,1) 0%, rgba(255,254,252,1) 50%, rgba(246,252,70,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#f6fc46', GradientType=0 );
+
+}
+li{
+        padding: 0 0 0 350px
+}
+
+img{
+border-radius: 121px 121px 121px 121px;
+-moz-border-radius: 121px 121px 121px 121px;
+-webkit-border-radius: 121px 121px 121px 121px;
+border: 15px solid #800000;  
+}
+
+ul{
+    list-style-type: none
+}
+body{
+
+    
+background: rgba(243,226,199,1);
+background: -moz-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 28%, rgba(182,141,76,1) 79%, rgba(233,212,179,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(243,226,199,1)), color-stop(28%, rgba(193,158,103,1)), color-stop(79%, rgba(182,141,76,1)), color-stop(100%, rgba(233,212,179,1)));
+background: -webkit-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 28%, rgba(182,141,76,1) 79%, rgba(233,212,179,1) 100%);
+background: -o-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 28%, rgba(182,141,76,1) 79%, rgba(233,212,179,1) 100%);
+background: -ms-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 28%, rgba(182,141,76,1) 79%, rgba(233,212,179,1) 100%);
+background: linear-gradient(to right, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 28%, rgba(182,141,76,1) 79%, rgba(233,212,179,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3', GradientType=1 );
+}
+section{
+background-image: url("image/graduate-photo-frame-template.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
