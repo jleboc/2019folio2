@@ -23,6 +23,8 @@ header{
 }
 h1{
     text-align: center;
+    color:steelblue;
+    font-size: 2em;
 }
 nav{
     width: 99%;
@@ -35,13 +37,19 @@ nav ul{
 nav ul li{
     display: inline;
     padding: 15px 0px;
+    background-image: url("image/wood-1099960_960_720.jpg");
+    margin: 5px;
+    border: 1px solid red;
+    -webkit-box-shadow: 6px 5px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 5px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 6px 5px 5px 0px rgba(0,0,0,0.75);
 
 }
 nav ul li a{
     display: inline-block;
     padding: 15px;
     text-decoration: none;
-    background-color: #CCCCFF;
+   
 }
 a:visited {
     color: greenyellow;
@@ -57,7 +65,7 @@ section{
     background-image: url("image/autumn_1.png");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 11em 0;
+    padding: 13em 0;
 }
 article{
     min-height: 500px;
